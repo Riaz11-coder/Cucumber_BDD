@@ -1,33 +1,25 @@
 package com.crm.step_definitions;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.Markup;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.crm.Base.TestBase;
+import com.crm.utilities.ConfigurationReader;
 import com.crm.utilities.Driver;
 import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
-import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-public class Hooks {
+import java.util.concurrent.TimeUnit;
 
 
+public class Hooks{
 
-    @Before(order = 1)
+
+
+
+    @Before(order=1)
     public void setUpScenario(){
-
-
-
-
 
 
     }
